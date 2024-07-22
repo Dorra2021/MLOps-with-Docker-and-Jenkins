@@ -2,3 +2,6 @@
 
 The purpose of this repository is to provide an example of how we can use DevOps tools like Docker and Jenkins to aumomate a Machine Learning Pipeline.
 I will create a pipeline that automatically process raw data (données brutes), train model and return test accuracy every time we make a change in our repository.
+
+
+adult.csv (input) ==> preprocessing-mlops-docker-jenkins.ipynb ==> train.csv / test.csv (output)
