@@ -5,6 +5,7 @@ I will create a pipeline that automatically process raw data (données brutes), 
 
 
 adult.csv (input) ==> preprocessing-mlops-docker-jenkins.ipynb ==> train.csv / test.csv (output)
+
 train.csv (input) ==> train.ipynb ==> model.joblib / train_metadata.json 
 
 
