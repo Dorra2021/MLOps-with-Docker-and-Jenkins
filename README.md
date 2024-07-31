@@ -8,9 +8,7 @@ adult.csv (input) ==> preprocessing-mlops-docker-jenkins.ipynb ==> train.csv / t
 
 train.csv (input) ==> train.ipynb ==> model.joblib / train_metadata.json 
 
-
-
-
+test.csv(input) / model.joblib ==> test.py ==> test_metadate.json 
 
 PS: cross valisation: 
 C'est une méthode qui permet de tester les performances d'un modèle prédictif de ML. C'est une méthode de rééchantillonnage qui permet d'évaluer un modèle meme avec des données limitées.
